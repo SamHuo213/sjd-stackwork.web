@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-cta: var(--cta);
+  --color-cta-foreground: var(--cta-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+:root {
+  /* Light Mode (Default) */
+  --background: #ffffff;
+  --foreground: #1e293b;
+  /* Slate 800 - Charcoal */
+
+  /* Primary Accent - RebeccaPurple */
+  --primary: #663399;
+  --primary-foreground: #ffffff;
+
+  /* Secondary */
+  --secondary: #f1f5f9;
+  /* Slate 100 */
+  --secondary-foreground: #0f172a;
+  /* Slate 900 */
+
+  /* CTA - Muted Teal */
+  --cta: #0F766E;
+  --cta-foreground: #ffffff;
+
+  /* Muted */
+  --muted: #f8fafc;
+  /* Slate 50 */
+  --muted-foreground: #64748b;
+  /* Slate 500 */
+
+  --border: #e2e8f0;
+  /* Slate 200 */
+  --input: #e2e8f0;
+  --ring: #663399;
+}
+
+.dark {
+  /* Dark Mode */
+  --background: #0a0a0a;
+  --foreground: #ededed;
+
+  --primary: #9d5fe3;
+  /* Lighter Purple for dark mode */
+  --primary-foreground: #ffffff;
+
+  --secondary: #1e1e1e;
+  --secondary-foreground: #ffffff;
+
+  --cta: #14b8a6;
+  /* Brighter Teal for dark mode */
+  --cta-foreground: #000000;
+
+  --muted: #171717;
+  --muted-foreground: #a3a3a3;
+
+  --border: #262626;
+  --input: #262626;
+  --ring: #9d5fe3;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
