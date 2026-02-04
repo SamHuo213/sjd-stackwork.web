@@ -19,11 +19,11 @@ export function CTASection() {
                                 Talk to a Senior Engineer
                             </Button>
                         </Link>
-                        <Link href="/services">
+                        {/* <Link href="/services">
                             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
                                 Explore Services
                             </Button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </Container>

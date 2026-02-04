@@ -22,11 +22,11 @@ export function HeroSection() {
                                 Talk to a Senior Engineer
                             </Button>
                         </Link>
-                        <Link href="/case-studies">
+                        {/* <Link href="/case-studies">
                             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base">
                                 View Case Studies
                             </Button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </Container>
