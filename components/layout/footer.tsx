@@ -15,7 +15,7 @@ export function Footer() {
                         </p>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:col-span-3">
-                        <div>
+                        {/* <div>
                             <h3 className="font-semibold mb-4">Services</h3>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 <li>
@@ -34,7 +34,7 @@ export function Footer() {
                                     </Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                         <div>
                             <h3 className="font-semibold mb-4">Company</h3>
                             <ul className="space-y-2 text-sm text-muted-foreground">
@@ -43,7 +43,7 @@ export function Footer() {
                                         About Us
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/case-studies" className="hover:text-foreground transition-colors">
                                         Case Studies
                                     </Link>
@@ -52,7 +52,7 @@ export function Footer() {
                                     <Link href="/how-we-work" className="hover:text-foreground transition-colors">
                                         How We Work
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div>
@@ -64,7 +64,12 @@ export function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="hover:text-foreground transition-colors">
+                                    <a
+                                        href="https://www.linkedin.com/company/sjd-stackwork"
+                                        className="hover:text-foreground transition-colors"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
                                         LinkedIn
                                     </a>
                                 </li>

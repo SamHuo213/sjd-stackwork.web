@@ -13,7 +13,8 @@ export function Header() {
                             <span className="font-bold text-xl tracking-tight">SJD Stackwork</span>
                         </Link>
                         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
-                            <Link href="/services" className="hover:text-foreground transition-colors">
+                            {/* TODO: Add these when we have position clarity */}
+                            {/* <Link href="/services" className="hover:text-foreground transition-colors">
                                 Services
                             </Link>
                             <Link href="/case-studies" className="hover:text-foreground transition-colors">
@@ -21,7 +22,7 @@ export function Header() {
                             </Link>
                             <Link href="/how-we-work" className="hover:text-foreground transition-colors">
                                 How We Work
-                            </Link>
+                            </Link> */}
                             <Link href="/about" className="hover:text-foreground transition-colors">
                                 About
                             </Link>
