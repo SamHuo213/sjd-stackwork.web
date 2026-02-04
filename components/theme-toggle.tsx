@@ -23,7 +23,7 @@ export function ThemeToggle({ className }: { className?: string }) {
             <button
                 onClick={() => setTheme("light")}
                 className={cn(
-                    "p-1.5 rounded-full transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+                    "p-1.5 rounded-full cursor-pointer transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
                     resolvedTheme === "light" ? "bg-muted text-foreground" : "text-muted-foreground"
                 )}
                 aria-label="Light mode"
@@ -33,7 +33,7 @@ export function ThemeToggle({ className }: { className?: string }) {
             <button
                 onClick={() => setTheme("dark")}
                 className={cn(
-                    "p-1.5 rounded-full transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+                    "p-1.5 rounded-full cursor-pointer transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
                     resolvedTheme === "dark" ? "bg-muted text-foreground" : "text-muted-foreground"
                 )}
                 aria-label="Dark mode"
