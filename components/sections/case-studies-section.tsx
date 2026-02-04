@@ -14,7 +14,7 @@ const caseStudies = [
         client: "HealthData Inc",
         title: "Stabilizing a legacy patient record system for scale",
         result: "99.99% uptime achieved",
-        tags: ["Healthcare", "Legacy"],
+        tags: ["Healthcare", "Legacy", "Microservices", "Angular", "Dotnet"],
     },
 ];
 
@@ -31,9 +31,9 @@ export function CaseStudiesSection() {
                             Real results for high-risk environments.
                         </p>
                     </div>
-                    <Link href="/case-studies">
+                    {/* <Link href="/case-studies">
                         <Button variant="outline">View All Case Studies</Button>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {caseStudies.map((study) => (
@@ -54,7 +54,7 @@ export function CaseStudiesSection() {
                             <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">
                                 {study.title}
                             </h3>
-                            <p className="text-muted-foreground mb-6">{study.client}</p>
+                            {/* <p className="text-muted-foreground mb-6">{study.client}</p> */}
                             <div className="flex items-center justify-between border-t border-border pt-6">
                                 <span className="font-mono text-sm font-bold text-cta">
                                     {study.result}
