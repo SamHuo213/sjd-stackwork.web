@@ -10,7 +10,14 @@ export default function ContactPage() {
                 <Container>
                     <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
                     <p className="text-lg text-muted-foreground">
-                        This page is under construction.
+                        For inquiries, please email{" "}
+                        <a
+                            href="mailto:sam.huo@sjdstackwork.com"
+                            className="text-primary underline underline-offset-4"
+                        >
+                            sam.huo@sjdstackwork.com
+                        </a>
+                        .
                     </p>
                 </Container>
             </main>
