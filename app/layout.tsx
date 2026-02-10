@@ -17,6 +17,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "SJD Stackwork | High-Risk Integrations & System Reliability",
   description: "Specialist consultancy for high-risk platforms. We handle critical integrations and system reliability where others fail.",
+  verification: {
+    google: "gIaWSc9N8zWVQMMLexO9Dq7OtVVShhvNDhV-jm211XM",
+  },
 };
 
 export default function RootLayout({
