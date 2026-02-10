@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   description: "Specialist consultancy for high-risk platforms. We handle critical integrations and system reliability where others fail.",
   verification: {
     google: "gIaWSc9N8zWVQMMLexO9Dq7OtVVShhvNDhV-jm211XM",
+    other: {
+      "msvalidate.01": "F4F85ED03853BA66CF8B848D2AC26970",
+    },
   },
 };
 
