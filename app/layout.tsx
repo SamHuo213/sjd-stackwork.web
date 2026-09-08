@@ -32,6 +32,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script src="https://www.useinflect.ai/inflect-tracking.js" data-tracking-key="inf_L1ExDzrkk48YD2lkqVVceyrDB1FNW5OK" data-inflect-install-version="2026-08-12.1"></script>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="https://www.useinflect.ai/api/bot-traffic/pixel?tk=inf_L1ExDzrkk48YD2lkqVVceyrDB1FNW5OK&iv=2026-08-12.1" alt="" width="1" height="1" style={{ display: "none" }} referrerPolicy="unsafe-url" />
+      </head>
       <body
         className={cn(
           inter.variable,
